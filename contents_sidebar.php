@@ -52,22 +52,19 @@ function hd_drop($num,$grobal,$sub_name,$sub_url){
 
 		?>
 		<li <?php hd_active("jira_update_main.php");?>><a href="/JY_LOVE/05_jira_update/jira_update_main.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"/></svg>지라 동기화</a></li>
-		<li <?php hd_active("01_metlife.php");?>><a href="/JY_LOVE/06_monthreport/01_metlife.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"/></svg>메트라이프 월간 보고서</a></li>
+		
+		<li <?php hd_active("01_main.php");?>><a href="/JY_LOVE/01_content/01_main.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"/></svg>콘텐츠 제작 방법</a></li>
 
 		
 		<?php
 			$num		='hq-01';
-			$grobal		= '메트라이프 향후 운영 방안';
-			$sub_name	= array('콘텐츠 제작 기본','aaaaaa');
-			$sub_url	= array("/JY_LOVE/01_content/01_main.php","#");
+			$grobal		= '월간보고서';
+			$sub_name	= array('게시판 정보 입력','월간보고서 작성');
+			$sub_url	= array("/JY_LOVE/06_monthreport/02_metlife_insert.php","/JY_LOVE/06_monthreport/01_metlife.php");
 			hd_drop($num,$grobal,$sub_name,$sub_url);
 
 
 
 		?>
-
-
-
-
 	</ul>
 </div>

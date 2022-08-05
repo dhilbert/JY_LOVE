@@ -18,11 +18,11 @@ mysqli_set_charset($real_sock, 'utf8');
 
 
 function hd_thead_th($num,$name){
-	echo '<th data-field="data_'.$name.'" data-sortable="true" >'.$name.'</th>';
+	echo '<th data-field="data_'.$num.'" data-sortable="true" >'.$name.'</th>';
 }
 
 function hd_tbody_td($num,$name){
-	echo '<td data-field="data_'.$name.'" data-sortable="true" >'.$name.'</td>';
+	echo '<td data-field="data_'.$num.'" data-sortable="true" >'.$name.'</td>';
 }
 
 
