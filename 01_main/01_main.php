@@ -94,6 +94,11 @@ include_once('../contents_sidebar.php');
 			$name_array=array(
 				array('1','황애경','메트라이프재단','국장','02-3469-9550 <br>010-3272-4217','ae-kyung.hwang@metlife.com ','일반적인 실무 업무 관련 메일은 참조 제외'),
 				array('2','현단비','메트라이프재단','과장','02-3469-9472 <br>010-8630-7289','danbi.hyun@metlife.com','메트라이프 재단 관련 공지사항 / 후기 게재 및 제작 진행'),
+
+
+
+
+				
 				array('4','박초롱','메트라이프재단 재무건강','과장','02-3469-9435 <br> 010-4780-5932','cho-rong.park@metlife.com ','-메트라이프 재무건강 담당자')
 
 
