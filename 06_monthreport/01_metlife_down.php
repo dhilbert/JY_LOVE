@@ -2,38 +2,6 @@
 include_once('../lib/session.php');
 include_once('../lib/dbcon_JY_LOVE.php');
 
-require('../03_crawling/Snoopy.class.php');
-/*
-function met_crawling($sku){   
-    $url='https://www.akmall.com/goods/GoodsDetail.do?goods_id='.$sku;
-    $snoopy = new Snoopy;
-    $snoopy->fetch($url);
-    $origin_html = $snoopy->results;    
-
-    $want_text = explode('<img id="mainGoodsImage" src="',$origin_html);
-    $want_text = explode('" alt="',hd_jy_crawlong($want_text,1));       
-    $img = "<a href ='".hd_jy_crawlong($want_text,0)."' target='_blank'><img src='".hd_jy_crawlong($want_text,0)."' height='50'></a>";
-
-    
-    $want_text = explode('<strong class="c_pink"></strong>',$origin_html);
-    $want_text = explode('<em class="sub">',hd_jy_crawlong($want_text,1));
-    $title =  hd_jy_crawlong($want_text,0);
-    
-    $want_text = explode('<dd class="ss"><i>',$origin_html);
-    $want_text = explode('</i>원</dd>',hd_jy_crawlong($want_text,1));
-    $real_price =hd_jy_crawlong( $want_text,0);
-
-    $want_text = explode('<dd class="tt"><i>',$origin_html);
-    $want_text = explode('</i>원</dd>',hd_jy_crawlong($want_text,1));
-    $dis_price = hd_jy_crawlong($want_text,0);
-
-    $want_text = explode('class="sp direct" value="',$origin_html);
-    $want_text = explode('"',hd_jy_crawlong($want_text,1));
-    $button_t  = hd_jy_crawlong($want_text,0);
-    $want_array = array($title,$img , $real_price , $dis_price    ,$button_t  ,$url       );
-    return $want_array;
-}    
-*/
 $sql	 = "
 UPDATE month_report_met_dataset_4 SET data_page =TRIM(data_page);
 
