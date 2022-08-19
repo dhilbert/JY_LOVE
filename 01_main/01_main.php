@@ -52,7 +52,7 @@ include_once('../contents_sidebar.php');
 			$name_array=array(
 				array('영업','김준호','DSG 세일즈','부장','010-6345-2300','juno@mz.co.kr '),
 				array('PM','송상영','DSG 프론티어부문','이사','010-3855-0560 ','ongsy@mz.co.kr '),
-				array('기획','김진성','DSG 프론티어부문','된장','010-8869-5447','kjsung@mz.co.kr'),
+				array('기획','김진성','DSG 프론티어부문','과장','010-8869-5447','kjsung@mz.co.kr'),
 				array('디자인','안승희','DSG 프론티어부문','차장','010-2716-3006','olive1@mz.co.kr'),
 				array('디자인','우정민','DSG 프론티어부문','과장','010-2760-0812','jmwoo@mz.co.kr'),				
 				array('개발','이상윤','DSG 프론티어부문','부장','010-6287-7720','sangyoon@mz.co.kr ')
